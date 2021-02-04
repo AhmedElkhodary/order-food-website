@@ -1,0 +1,326 @@
+/*
+	Author: Ahmed Elkhoday;
+	Theme: Food Order website Admin;
+	Version: v1.0;
+
+*/
+
+
+/* Start public style */
+*{ 
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+	/*border: 1px solid black;*/
+	padding: 1%;
+	width: 80%;
+	margin: 0 auto;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+/*table*/
+th,td {
+	text-align: left;
+	padding: 10px;
+}
+/* End public style */
+
+
+
+/* Start menu section*/
+.menu {
+	text-align: center;
+	border-bottom: 1px solid gray;
+}
+
+.menu ul {
+	list-style-type: none;
+}
+
+.menu ul li {
+	display: inline;
+	padding: 1%;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: #ff7979;
+	font-weight: bold;
+}
+
+.menu ul li a:hover {
+	color: #eb4d4b;
+}
+
+/* Start menu section*/
+
+
+
+/* Start main-content section*/
+.main-content {
+	background-color: #c7ecee;
+	padding: 3% 0;
+}
+
+.main-content .col-4 {
+	background-color: white;
+	width: 18%;
+	margin: 1%;
+	padding: 2%;
+	text-align: center;
+	float: left;
+}
+/* End   main-contant section*/
+
+
+/* Start Footer section */
+.footer {
+	background-color: #e1b12c;
+}
+
+.text-center {
+	text-align: center;
+}
+/* End Footer section */
+
+
+/* Start Add Admin page */
+.input-table{
+	width: 400px;
+	margin: 0 auto;
+	background-color: #ccc;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 20px;
+}
+.input-table td label {
+	font-size: 20px;
+	display: inline-block;
+	width: 150px;
+	background-color: red;
+}
+
+/* End Add Admin page */
+
+
+/* Start Login page 
+.login{
+	border:1px solid black;
+	width: 30%;
+	margin: 10% auto;
+	text-align: center;
+	padding: 20px;
+	background-color: #dcdde1;
+}
+.login h1 {
+	
+	padding-bottom: 40px;
+}
+ End Login page */
+
+
+
+
+
+/* Start main Table Style */
+.main-table {
+	width: 100%;
+	margin-top: 5px;
+
+}
+.main-table tr:nth-child(even) {
+  background-color: #eee;
+}
+.main-table tr:nth-child(odd) {
+  background-color: #fff;
+}
+.main-table th {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+.main-table img {
+	width: 64px;
+	height:64px;
+	border-radius: 50%;
+
+}
+
+.main-table td {
+	vertical-align: middle !important;
+	text-align: center;
+}
+/* End main Table Style */
+
+
+
+/*button Style*/ 
+.btn{
+	padding: 5px 10px; 
+	font-weight: bold;
+	min-width: 100px;
+	font-size: 15px;
+	height: 35px;
+	
+	}
+
+
+/*anchor Style*/ 
+a {
+
+	text-decoration: none;
+	color: #2a3bb3;
+
+}
+
+
+/* head style */
+.main-content .wrapper h1 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+
+/* input text 
+input {
+	width: auto;
+
+	padding: 5px;
+	border-radius: 5px;
+}
+*/
+
+.massage{
+    background-color: #999;
+    text-align: center;
+    height: 40px;
+    font-size: 25px;
+    padding-top: 10px;
+    color: #af0404;
+    font-weight: bold;
+}
+
+.error-msg{
+	text-align: center;
+	padding: 15px;
+    color: red;
+}
+
+.success-msg{
+	text-align: center;
+	padding: 15px;
+    color: #2700ff;
+}
+
+span {
+	font-size: 12px;
+    margin: 5px;
+    margin-top: 13px;
+}
+
+/* Form style*/
+
+.form {
+	background-color: #70a1ff;
+	width: 38%;
+	margin: 0 auto;
+	padding: 30px 15px 15px 15px;
+	border-radius: 3px;
+	
+}
+
+.form label{
+	display: inline-block;
+	font-weight: bold;
+	width: 185px;
+	font-size: 20px;
+}
+
+.form .text{
+	padding: 5px;
+	width: 310px;
+	height: 30px;
+	border: none;
+	display: inline-block;
+}
+
+.form .textarea{
+	padding: 5px;
+	width: 310px;
+	border: none;
+	display: inline-block;
+}
+
+.form select{
+	font-size: 15px;
+	width: 320px;
+	height: 30px;
+	border: none;
+	margin-top: 10px;
+}
+.form select option{
+	font-size: 20px;
+	padding: 10px;
+}
+
+.form select option:nth-child(even) {
+  background-color: #ddd;
+}
+.form select option:nth-child(odd) {
+  background-color: #fff;
+}
+
+.form .radio{
+	margin: 5px;
+}
+
+.form .btn-save {
+
+	padding: 10px 50px !important;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    background-color: #303952;
+    color: #fff;
+}
+
+.form .btn-save:hover{
+	background-color: #596275;
+}
+
+/* message */
+.div_message {
+	
+	width: 38%;
+	margin: 0 auto;
+	padding: 15px;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+	color: #d00707;
+
+}
+
+.div_message_success {
+	
+
+	margin-left: 20px;
+	padding: 5px;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 20px;
+	font-style: italic;
+	color: blue;
+	display: inline-block;
+}
+
+
+
+
